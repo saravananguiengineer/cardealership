@@ -4,6 +4,7 @@ import { CarsService } from './cars.service';
 import { Cars } from './cars-model';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'cars-list',
   template: `
           <div class="container">

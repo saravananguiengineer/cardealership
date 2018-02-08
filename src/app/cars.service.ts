@@ -151,8 +151,8 @@ export class CarsService {
             'idealhours': '120hrs',
             'usedhours': '150hrs',
             'renewal': '2024'
-        }        
-    ]
+        }
+    ];
 
     getCars() {
         return this.myCars;
